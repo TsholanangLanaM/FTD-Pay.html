@@ -109,6 +109,8 @@ function pay() {
 
   const product = getProductDetails();
 
+  alert(product.name);
+  
   if (!product) {
     alert("Invalid product selected");
     return;
